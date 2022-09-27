@@ -82,9 +82,7 @@ paths:
           text/plain:
             schema:
               $ref: '#/components/schemas/Body'
-            examples:
-              default:
-                value: 
+            example: ''
       responses:
         '200':
           description: OK
